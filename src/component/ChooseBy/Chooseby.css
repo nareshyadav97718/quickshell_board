@@ -1,0 +1,28 @@
+.containerChoose{
+    margin-top: 100px;
+    margin-left: -78px;
+    display: flex;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    z-index: 2;
+    padding: 10px;
+    border-radius: 7px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    align-items: center;
+}
+.group>h5{
+    font-weight: 300;
+}
+.group>select{
+    width: 90px;
+    font-size: 12px;
+    height: 19px;
+}
